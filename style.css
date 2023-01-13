@@ -1,0 +1,23 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    width: 100%;
+    animation-name: box_shadow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@keyframes box_shadow{
+    from{box-shadow: 10px 10px 10px rgb(21, 121, 203);}
+    50%{box-shadow: 10px 10px 10px rgb(192, 21, 214);}
+    to{box-shadow: 10px 10px 10px rgb(12, 132, 12);}
+}
+
+canvas{
+    border: 5px solid teal;
+    border-radius: 14px;
+}
